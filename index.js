@@ -17,7 +17,7 @@ console.log(typeof summary);
 
 const countSale = (summary) => {
     console.log(summary);
-    console.log(typeof summary); //здесь саммари - обьект
+    console.log(typeof summary); //здесь саммари - PointerEvent 
     
     summary = Number(summary);
     console.log(summary);
