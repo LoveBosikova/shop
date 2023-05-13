@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShop with love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Корзина</h1>
+    </header>
+    <main>
+
+        <div class="cardsWrap">
+
+        <div class="card">
+            <div class="card__imgWrap">
+                <img class="card__img" src="1.jpg" alt="Выбор. О свободе и внутренней силе человека
+                ">
+            </div>
+            <div class="card__content">
+                <div class="card__name"><strong>Выбор. О свободе и внутренней силе человека
+                </strong></div>
+                <div class="card__author">Эдит Ева Эгер</div>
+                <div class="card__genre">Психология, биография и мемуары</div>
+                <div class="card__ageAccept">18+</div>
+            </div>
+            <div class="card__price"><span class="card__itemprice" id="firstPrice">499</span> руб.</div>
+        </div>
+
+        <div class="card">
+            <div class="card__imgWrap">
+                <img class="card__img" src="2.jpg" alt="К себе нежно
+                ">
+            </div>
+            <div class="card__content">
+                <div class="card__name"><strong>К себе нежно
+                </strong></div>
+                <div class="card__author">Ольга Примаченко</div>
+                <div class="card__genre">Психология</div>
+                <div class="card__ageAccept">16+</div>
+            </div>
+            <div class="card__price"><span class="card__itemprice" id="secondPrice">399</span> руб.</div>
+        </div>
+
+        <div class="card">
+            <div class="card__imgWrap">
+                <img class="card__img" src="3.jpg" alt="Тревожные люди
+                ">
+            </div>
+            <div class="card__content">
+                <div class="card__name"><strong>Тревожные люди
+                </strong></div>
+                <div class="card__author">Фредрик Бакман</div>
+                <div class="card__genre">Современная зарубежная литература</div>
+                <div class="card__ageAccept">18+</div>
+            </div>
+            <div class="card__price"><span class="card__itemprice" id="thirdPrice">279</span> руб.</div>
+        </div>
+
+        <div class="card">
+            <div class="card__imgWrap">
+                <img class="card__img" src="4.jpg" alt="-60%
+                ХИТ ПРОДАЖ
+                Бог создал целые числа. Математические открытия, изменившие историю
+                ">
+            </div>
+            <div class="card__content">
+                <div class="card__name"><strong>
+                    Бог создал целые числа. Математические открытия, изменившие историю
+                </strong></div>
+                <div class="card__author">Стивен Хокинг</div>
+                <div class="card__genre">Математика, Научно-популярная литература</div>
+                <div class="card__ageAccept">12+</div>
+            </div>
+            <div class="card__price"><span class="card__itemprice" id="fourthPrice">235</span> руб.</div>
+        </div>
+    </div>
+
+    <div class="summary">
+        <button class="summary__button" type="button" id="button" value="sale20">Использовать купон на 20%</button>
+        <div class="summary__total"><span class="summary__text">Итого: </span><span class="summary__price" id="totalPrice"></span> руб.</div>
+    </div>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
